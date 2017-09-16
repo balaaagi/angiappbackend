@@ -1,0 +1,5 @@
+app_id = 'app_id'
+app_key = 'app_key'
+gallery_name='gallerynam'
+base_url = 'https://api.kairos.com/'
+TRAINING_URL='https://us-central1-lynkhacksmock.cloudfunctions.net/faceimages'
