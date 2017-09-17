@@ -101,6 +101,9 @@ def verifyFunction(img_url,img_id):
 		# if(eAsJson['Errors']>5000):
 		# 	# To DO Invoke OpenCV Functions
 		print "Failure To Check for ",img_url,img_id
+		response = requests.post(validateurl, data={'teamname':'illicitdevs','imageuid':img_id,'name':'notfound'})
+		print response.content
+		return jsonify(mobileApiResponse)
 
 
 
